@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Shooting Game in Virtual Reality</title>
+  <script src="https://aframe.io/releases/1.0.4/aframe.min.js"></script>
+  <script
+    src="https://cdn.jsdelivr.net/gh/n5ro/aframe-physics-system@v4.0.1/dist/aframe-physics-system.min.js"></script>
+  <script src="https://unpkg.com/aframe-environment-component@1.1.0/dist/aframe-environment-component.min.js"></script>
+  <script src="https://recast-api.donmccurdy.com/aframe-inspector-plugin-recast.js"></script>
+  <script src="https://cdn.jsdelivr.net/gh/donmccurdy/aframe-extras@v6.1.1/dist/aframe-extras.min.js"></script>
+
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
+</head>
+
+<body>
+
+    <nav class="navbar navbar-inverse visible-xs" >
+        <div class="container-fluid">
+          <div class="navbar-header" >
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>                        
+            </button>
+            <a class="navbar-brand" href="#">
+                <img src="https://us.123rf.com/450wm/subtropica/subtropica1807/subtropica180700039/110859042-rise-up-fight-for-your-right-motivation-poster-illustration-concept-rough-vector-fist-illustration-d.jpg?ver=6" width="100" height="150">
+            </a>
+          </div>
+          <div class="collapse navbar-collapse" id="myNavbar" > 
+            <ul class="nav navbar-nav">
+              <li class="active"><a href="#">Home</a></li>
+              <li><a href="#">Buddy</a></li>
+              <li><a href="#">Learn & Withstand</a></li>
+              <li><a href="#">Quiz Time</a></li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+      
+      <div class="container-fluid" >
+        <div class="row content" >
+          <div class="col-sm-3 sidenav hidden-xs" >
+            <img src="https://us.123rf.com/450wm/subtropica/subtropica1807/subtropica180700039/110859042-rise-up-fight-for-your-right-motivation-poster-illustration-concept-rough-vector-fist-illustration-d.jpg?ver=6" width="100" height="100" style="vertical-align:middle;margin:10px 85px; border-radius: 90%;">
+            <ul class="nav nav-pills nav-stacked">
+              <li class="active"><a href="#section1">Home</a></li>
+              <li><a href="#section2">Buddy</a></li>
+              <li><a href="#section3">Learn & Withstand</a></li>
+              <li><a href="#section3">Quiz Time</a></li>
+            </ul><br>
+          </div>
+          <br>
+          
+          <div class="col-sm-9">
+            <div class="well" style="background-color:#d1fffb">
+              <h4 style="font-family:cursive;font-weight:bold; text-align: center;">My Buddy</h4>
+              <p style="font-family:cursive;font-weight:bold;font-style: italic ;text-align: center;">Braces you when you fall down!</p>
+            </div>
+<!----<div class="row">
+  <a-scene id="scene" inspector-plugin-recast>
+      <a-asset>
+          <a=assets-item id="duck" src="./assets/duck/scene.gltf"></a>
+      </a-asset>
+    <a-entity id="camera" camera position="0 1.6 0" look-controls="pointerLockEnabled: false">
+    </a-entity>
+
+    
+
+    <a-entity id="weapon" gltf-model="#duck" position="0 1 -3" rotation="0 100 0" scale="0.5 0.5 0.5" ></a-entity>
+    
+  </a-scene>
+</div>-->
+
+<div >
+    
+    <div class="row" style="margin:10px">   
+        <div class="well" style="background-color: #f9dbbb; justify-content:center; align-items:center; margin-left: 10px; ">
+            <a-scene id="scene" inspector-plugin-recast>
+                <a-asset>
+                    <a=assets-item id="duck" src="./assets/duck/scene.gltf"></a>
+                </a-asset>
+              <a-entity id="camera" camera position="0 1.6 0" look-controls="pointerLockEnabled: false">
+              </a-entity>
+          
+              
+          
+              <a-entity id="weapon" gltf-model="#duck" position="0 1 -3" rotation="0 100 0" scale="0.5 0.5 0.5" ></a-entity>
+              
+            </a-scene>
+            <p style="font-family:cursive; font-size: 20">Come & Relieve yourselves here by finding a buddy</p>
+          <!--<a class="btn btn-large btn-success" href="login.html"  style="align-self:center">
+            <p style="font-family:cursive;align-self:center; color: black">Get Started</p>
+          </a>-->
+          <button type="button" class="btn btn-info">Bully</button>
+            <button type="button" class="btn btn-info">Loneliness</button>
+        </div>
+    </div>
+</div>
+
+</body>
+</html>

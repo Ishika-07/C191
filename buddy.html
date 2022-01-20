@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Buddy</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
+  <!-- Import A-Frame and then AR.js -->
+  <script src="https://aframe.io/releases/1.0.4/aframe.min.js"></script>
+  <script src="https://raw.githack.com/AR-js-org/AR.js/master/aframe/build/aframe-ar.js"></script>
+
+  <style>
+    /* Set height of the grid so .sidenav can be 100% (adjust as needed) */
+    .row.content {height: 550px}
+    
+    /* Set gray background color and 100% height */
+    .sidenav {
+      background-image:url("assets/sidebar.png");
+      height: 100%;
+    }
+        
+    /* On small screens, set height to 'auto' for the grid */
+    @media screen and (max-width: 767px) {
+      .row.content {height: auto;} 
+    }
+  </style>
+</head>
+<body style="background-image: url(assets/black.jpg);">
+
+
+<nav class="navbar navbar-inverse visible-xs" >
+    <div class="container-fluid">
+      <div class="navbar-header" >
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>                        
+        </button>
+        <a class="navbar-brand" href="#">
+            <img src="https://us.123rf.com/450wm/subtropica/subtropica1807/subtropica180700039/110859042-rise-up-fight-for-your-right-motivation-poster-illustration-concept-rough-vector-fist-illustration-d.jpg?ver=6" width="100" height="150">
+        </a>
+      </div>
+      <div class="collapse navbar-collapse" id="myNavbar" > 
+        <ul class="nav navbar-nav">
+          <li><a href="index.html">Home</a></li>
+          <li class="active"><a href="#">Buddy</a></li>
+          <li><a href="#">Learn & Withstand</a></li>
+          <li><a href="#">Game Time</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  
+  <div class="container-fluid" >
+    <div class="row content" >
+      <div class="col-sm-3 sidenav hidden-xs" >
+        <img src="./assets/buddy_1.png"  width="100" height="100" style="vertical-align:middle;margin:10px 85px; border-radius: 90%;">
+      <img src="./assets/buddy_2.png"  width="150" height="50" style="vertical-align:middle; margin-left: 60px; margin-bottom: 10px">
+      <ul class="nav nav-pills nav-stacked">
+          <li ><a href="index.html">Home</a></li>
+          <li class="active"><a href="buddy.html">Buddy</a></li>
+          <li><a href="learn.html">Learn & Withstand</a></li>
+          <li><a href="quiz.html">Game Time</a></li>
+        </ul><br>
+      </div>
+      <br>
+      
+      <div class="col-sm-9">
+
+        <div class="row">
+        <div class="col-sm-10">
+        <div class="well" style="background-image:url(assets/blue.jpg)">
+          <h4 style="font-family:cursive;font-weight:bold; text-align: center;">My Buddy</h4>
+          <p style="font-family:cursive;font-weight:bold;font-style: italic ;text-align: center;">Braces you when you fall down!</p>
+        </div>
+        </div>
+        <div class="col-sm-2">   
+          <div class="well" style="background-image:url(assets/blue.jpg)">
+            <img src="./assets/frame.png" style="height:80px; width: 80px; object-fit: contain;"/>
+          </div>
+        </div>
+        </div>
+
+        <div class="row">
+        <div class="col-sm-3">
+            <div class="well" style="background-image:url(assets/yellow.jpg)">
+              <img src="./assets/markers/pattern-icon-01.png" height="180" width="180"/>
+            </div>
+          </div>
+          <div class="col-sm-3">
+            <div class="well" style="background-image:url(assets/green.jpg)">
+              <h4 style=" text-align: center; font-family:cursive">Name: Ava </h4>
+              <h4 style=" text-align: center; font-family:cursive">Description: <h5 style=" text-align: center; font-family:cursive">Hey Mate!! Hope you are doing well want to be my buddy then come and join the journey. </h5> </h4>
+              
+              <img src="assets/left-arrow.png" width="100" height="80">
+            </div>
+          </div>
+          <div class="col-sm-3">
+            <div class="well" style="background-image:url(assets/pink.jpg)">
+              <h4 style=" text-align: center; font-family:cursive">Name: Joy </h4>
+              <h4 style=" text-align: center; font-family:cursive">Description: <h5 style=" text-align: center; font-family:cursive">Hi there!! Wanna have some fun, then come and join the journey. </h5> </h4>
+              <img src="assets/right-arrow.png" width="100" height="80">
+            </div>
+          </div>
+          <div class="row">
+        <div class="col-sm-3">
+            <div class="well" style="background-image:url(assets/purple.jpg)">
+              <img src="./assets/markers/pattern-icon-02.png" height="180" width="180"/>
+            </div>
+          </div>
+        </div>
+        <div class="row" style="margin:10px">   
+            <div class="well" style="background-image: url(assets/button.jpg); justify-content:center; align-items:center; margin-left: 10px; height:20% ">
+              <h4 style="font-size: 20; font-weight: bold; font-style: cursive; text-align: center;">Hurry up, scan the above qr code and see how ur buddy looks by scanning the above image!!</h4>
+            </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+</body>
+</html>

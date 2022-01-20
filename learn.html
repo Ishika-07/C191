@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Buddy</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
+  <!-- Import A-Frame and then AR.js -->
+  <script src="https://aframe.io/releases/1.0.4/aframe.min.js"></script>
+  <script src="https://raw.githack.com/AR-js-org/AR.js/master/aframe/build/aframe-ar.js"></script>
+
+  <style>
+    /* Set height of the grid so .sidenav can be 100% (adjust as needed) */
+    .row.content {height: 550px}
+    
+    /* Set gray background color and 100% height */
+    .sidenav {
+      background-image:url("assets/sidebar.png");
+      height: 200%;
+    }
+        
+    /* On small screens, set height to 'auto' for the grid */
+    @media screen and (max-width: 767px) {
+      .row.content {height: auto;} 
+    }
+  </style>
+</head>
+<body style="background-image: url(assets/black.jpg);">
+
+
+<nav class="navbar navbar-inverse visible-xs" >
+    <div class="container-fluid">
+      <div class="navbar-header" >
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>                        
+        </button>
+        <a class="navbar-brand" href="#">
+            <img src="https://us.123rf.com/450wm/subtropica/subtropica1807/subtropica180700039/110859042-rise-up-fight-for-your-right-motivation-poster-illustration-concept-rough-vector-fist-illustration-d.jpg?ver=6" width="100" height="150">
+        </a>
+      </div>
+      <div class="collapse navbar-collapse" id="myNavbar" > 
+        <ul class="nav navbar-nav">
+          <li><a href="index.html">Home</a></li>
+          <li class="active"><a href="#">Buddy</a></li>
+          <li><a href="#">Learn & Withstand</a></li>
+          <li><a href="#">Game Time</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  
+  <div class="container-fluid" >
+    <div class="row content" >
+      <div class="col-sm-3 sidenav hidden-xs" >
+        <img src="./assets/buddy_1.png"  width="100" height="100" style="vertical-align:middle;margin:10px 85px; border-radius: 90%;">
+      <img src="./assets/buddy_2.png"  width="150" height="50" style="vertical-align:middle; margin-left: 60px; margin-bottom: 10px">
+      <ul class="nav nav-pills nav-stacked">
+          <li ><a href="index.html">Home</a></li>
+          <li ><a href="buddy.html">Buddy</a></li>
+          <li class="active"><a href="learn.html">Learn & Withstand</a></li>
+          <li><a href="quiz.html">Game Time</a></li>
+        </ul><br>
+      </div>
+      <br>
+      
+      <div class="col-sm-9">
+        <div class="well" style="background-image: url(./assets/blue.jpg);">
+          <h4 style="font-family:cursive;font-weight:bold; text-align: center;">My Buddy</h4>
+          <p style="font-family:cursive;font-weight:bold;font-style: italic ;text-align: center;">Braces you when you fall down!</p>
+        </div>
+     </div>
+        
+     <div class="col-sm-9">
+        <div class="row" style="margin:10px">   
+            <div class="well" style="background-image: url(assets/button.jpg); justify-content:center; align-items:center; margin-left: 10px; height:20% ">
+              <h4 style="font-size: 20; font-weight: bold; font-style: cursive; text-align: center;">Here are some anti-bullying laws that you can use if you encounter an uncomfortable situation.</h4>
+            </div>
+        </div>
+      </div>
+
+      <div class="col-sm-9">
+        <div class="row" style="margin:10px">   
+            <div class="well" style="background-image: url(assets/bg.jpg); justify-content:center; align-items:center; margin-left: 10px; height:20% ">
+              <p style="font-size: 20; font-weight: bold; font-style: cursive; text-align: center;">
+                In 2015, the Ministry for Human Resource Development, Government of India made the Raghavan Committee report, titled The Menace of Ragging in the Educational Institution and Measures to curb it which was subsequently submitted to the Hon'ble Supreme Court of India. The Raghavan Committee report recommended that teachers and the principal shall be held liable if any act of bullying takes place in the school premises.
+              </p>
+            </div>
+        </div>
+      </div>
+
+      <div class="col-sm-9">
+        <div class="row" style="margin:10px">   
+            <div class="well" style="background-image: url(assets/bg.jpg); justify-content:center; align-items:center; margin-left: 10px; height:20% ">
+              <p style="font-size: 20; font-weight: bold; font-style: cursive; text-align: center;">
+                In University of Kerala v. Council, Principal's colleges, Kerala & others (2011) 14 SCC 357 an important question with respect to the safety of the youth was raised:
+                Now the question arises, why should the Indian penal laws not apply to a school? You may say that the schoolboys are only in late teens but do not forget that there are several crimes in various cities including murders which are committed by teenagers today
+              </p>
+            </div>
+        </div>
+      </div>
+
+      <div class="col-sm-9">
+        <div class="row" style="margin:10px">   
+            <div class="well" style="background-image: url(assets/bg.jpg); justify-content:center; align-items:center; margin-left: 10px; height:20% ">
+              <p style="font-size: 20; font-weight: bold; font-style: cursive; text-align: center;">
+                The objectives of the operational guidelines on school are as follows:
+                    To provide age appropriate information about health and nutrition to the children in schools.
+                    To promote healthy behaviors among the children that they will inculcate for life.
+                    To detect and treat diseases early in children and adolescents including identification of malnourished and anemic children with appropriate referrals to PHCs and hospitals.
+                    To promote the use of safe drinking water in schools
+                    To promote safe menstrual hygiene practices by girls.
+                    To promote yoga and meditation through Health & Wellness Ambassadors.
+                    To encourage research on health, wellness, and nutrition for children.
+                    </p>
+            </div>
+        </div>
+      </div>
+      
+    </div>
+  </div>
+  
+</body>
+</html>
